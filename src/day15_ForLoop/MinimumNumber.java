@@ -23,6 +23,7 @@ public class MinimumNumber {
 
 
         System.out.println("min = " + min);
+        scan.close();
 
 
     }
