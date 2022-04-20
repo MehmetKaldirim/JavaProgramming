@@ -32,14 +32,14 @@ public class AddElementsToArray_Overloading {
 
         }
 
-    private static void printElement(String[] names) {
+  /*private static void printElement(String[] names) {
         for (String each : names) {
             System.out.println(each);
         }
-    }
+    }*/
 
-    private static void printElement(String[] names) {
-        for (String each : names) {
+    private static void printElement(String... dames) {
+        for (String each : dames) {
             System.out.println(each);
         }
     }
