@@ -36,9 +36,4 @@ public class AppearedTwice {
     }
 
 }
-=======
 
-    }
-
-}
->>>>>>> origin/future1
