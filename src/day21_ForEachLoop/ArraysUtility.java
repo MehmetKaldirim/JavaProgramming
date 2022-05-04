@@ -1,4 +1,4 @@
-package day20_Arrays;
+package day21_ForEachLoop;
 
 import java.util.Arrays;
 
@@ -6,13 +6,12 @@ public class ArraysUtility {
 
     public static void main(String[] args) {
 
-
-        int[] nums = {1,2,3,4,5};
+        int[] nums = {1, 2, 3, 4, 5};
 
         System.out.println(nums); //hashcode
-        System.out.println( Arrays.toString(nums) ); // "{1,2,3,4,5}"
+        System.out.println(Arrays.toString(nums)); // "{1,2,3,4,5}"
 
-        System.out.println(  nums[0] );
+        System.out.println(nums[0]);
 
         /*
         String str = "Java";
@@ -24,20 +23,20 @@ public class ArraysUtility {
 
         int[] scores = {95, 100, 55, 65, 85, 78};
 
-        System.out.println( Arrays.toString(scores) );
+        System.out.println(Arrays.toString(scores));
 
         Arrays.sort(scores); //{55 .... 100}
 
-        System.out.println( Arrays.toString(scores) );
+        System.out.println(Arrays.toString(scores));
 
-        System.out.println("Min Score: " + scores[0] );
-        System.out.println("Max Score: "+ scores[scores.length-1] );
+        System.out.println("Min Score: " + scores[0]);
+        System.out.println("Max Score: " + scores[scores.length - 1]);
 
-        String[] names = {"Gunay", "Anna", "Zuhal" ,"Ahmet", "Maria", "Sinem"};
+        String[] names = {"Gunay", "Anna", "Zuhal", "Ahmet", "Maria", "Sinem"};
 
         Arrays.sort(names);
 
-        System.out.println( Arrays.toString(names));
+        System.out.println(Arrays.toString(names));
 
         String[] words = {"Anna", "ANNA"};
 
@@ -48,10 +47,10 @@ public class ArraysUtility {
 
         System.out.println("-----------------------------------------------");
 
-        int[] arr1 = {1,3,2};
-        int[] arr2 = {1,2,3};
+        int[] arr1 = {1, 3, 2};
+        int[] arr2 = {1, 2, 3};
 
-        boolean r1 = Arrays.equals(arr1,arr2);
+        boolean r1 = Arrays.equals(arr1, arr2);
 
         System.out.println(r1);
 
@@ -73,16 +72,6 @@ public class ArraysUtility {
         boolean anagram = Arrays.equals(ch1, ch2);
 
         System.out.println("anagram = " + anagram);
-
-
-        int[] numbers ={10,9, 0,1,2,20, 4,6,7,8};
-
-        System.out.println(Arrays.toString(numbers));
-
-        Arrays.sort(numbers); // sorts the array in ascending order
-
-        System.out.println(Arrays.toString(numbers));
-
 
 
     }

@@ -26,6 +26,7 @@ public class Alphabet {
         }
 
 */
+
         //   System.out.println( alphabets );
         System.out.println( Arrays.toString(alphabets) ); // print the whole array
         //       System.out.println( alphabets[0] ); // printing the element of array
@@ -36,4 +37,9 @@ public class Alphabet {
     }
 
 
+
 }
+
+
+//alphabet Z,...C,B,A
+

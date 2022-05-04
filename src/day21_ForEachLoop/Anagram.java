@@ -11,7 +11,12 @@ public class Anagram {
 
         // write a program that can check if str1 & str2 are build out same characters
 
-        char[] ch1= str1.toCharArray();
+
+
+
+
+        char[] ch1 = str1.toCharArray();
+
         char[] ch2 = str2.toCharArray();
 
         //  System.out.println(Arrays.toString(ch1));
@@ -24,6 +29,7 @@ public class Anagram {
 
         // System.out.println(Arrays.toString(ch1));
         //  System.out.println(Arrays.toString(ch2));
+
 
         boolean anagram =  Arrays.equals(ch1, ch2);
 

@@ -18,9 +18,6 @@ public class ForEachLoopIntro {
             System.out.println(each);
         }
 
-
-
-
     }
 
 }

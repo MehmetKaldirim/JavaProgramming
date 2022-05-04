@@ -10,18 +10,14 @@ public class ReverseNames {
 
             String reversed = "";
 
-            for (int i = each.length()-1; i>= 0; i--) { // reverses the string
+
+            for (int i = each.length() - 1; i >= 0; i--) { // reverses the string
+
                 reversed += each.charAt(i);
             }
 
             System.out.println(reversed);
 
         }
-
-
-
-
-
     }
-
 }

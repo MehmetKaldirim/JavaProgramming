@@ -1,6 +1,5 @@
 package day21_ForEachLoop;
 
-
 import java.util.Arrays;
 
 public class MergeTwoArrays {
@@ -22,7 +21,9 @@ public class MergeTwoArrays {
         for (String each : group2) {
             students[i++] = each;
         }
+
         Arrays.sort(students);
+
         System.out.println(Arrays.toString(students));
 
 

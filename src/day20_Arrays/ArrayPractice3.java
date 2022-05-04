@@ -11,7 +11,7 @@ public class ArrayPractice3 {
         System.out.println("How many numbers would you like to enter?");
         int length = scan.nextInt(); //20
 
-        if(length <= 0){
+        if (length <= 0) {
             System.err.println("Invalid Entry");
             System.exit(0);
         }
@@ -24,7 +24,9 @@ public class ArrayPractice3 {
         }
 
 
+
         System.out.println(Arrays.toString(numbers) );
+
 
         scan.close();
 
